@@ -3,7 +3,7 @@
 # A list of files to exclude when backing up *nix home directories using rsync.
 #
 # Author: Ruben Barkow-Kuder <https://github.com/rubo77/rsync-homedir-excludes>
-# Version: 2019-11-30
+# Version: 2024-08-16
 #
 # #Usage:
 #    USER=<homedir username here>
@@ -14,6 +14,9 @@
 # directories, probably not worth a backup    #
 # (uncomment the files you don't need)        #
 ###############################################
+
+#temp*        # optional exclude all files/folders with temp in the beginning of there name
+#*cache*      # optional exclude all files/folders with cache in there name
 
 #.android
 #.AndroidStudio*/
